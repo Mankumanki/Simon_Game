@@ -1,0 +1,66 @@
+body{
+    background-color: #000B18;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3%;
+    color:aquamarine;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.mainContainer{
+    display: grid;
+    width:500px;
+    height:500px;
+    grid-template-columns: 42.5% 42.5%;
+    gap:15%;
+}
+.Green{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #89d000 0%,
+    rgba(0, 250, 29, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Blue{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #0029ff 0%,
+    rgba(21, 0, 255, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Red{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #d00021 0%,
+    rgba(255, 0, 0, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Yellow{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #FFE900 0%,
+    rgba(229, 255, 0, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}

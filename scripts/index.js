@@ -115,7 +115,7 @@ if(canvas.getContext)
 
         if(ClickArea.mouseX>bx && ClickArea.mouseY>by && ClickArea.mouseX<bx+200 && ClickArea.mouseY < by+50)
         {
-            alert("YEAH!!!!!");
+            window.location.replace("./main.html");
         }
     });
 
