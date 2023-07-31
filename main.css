@@ -1,0 +1,184 @@
+body{
+    background-color: #000B18;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color:aquamarine;
+}
+
+h2{
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 90%;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.mainContainer{
+    display: grid;
+    width:480px;
+    height:480px;
+    margin-top: 2%;
+    grid-template-columns: 42.5% 42.5%;
+    gap:15%;
+}
+.Green{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #89d000 0%,
+    rgba(0, 250, 29, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Blue{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #0029ff 0%,
+    rgba(21, 0, 255, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Red{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #d00021 0%,
+    rgba(255, 0, 0, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+.Yellow{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #FFE900 0%,
+    rgba(229, 255, 0, 0.122) 100%);
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 15%;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.422), 0 1px 4px rgba(255, 252, 252, 0.24);
+    transform:
+    perspective(20em)
+    rotateX(18deg);
+}
+
+.GreenClicked{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #89d000 60%,
+    rgba(0, 250, 29, 0.536) 100%);
+    box-shadow: 0 5px 10px rgb(255, 255, 255), 0 1px 4px rgb(255, 252, 252);
+    transform: scale(0.9)
+    perspective(20em)
+    rotateX(18deg);
+}
+
+.BlueClicked{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #2247ff 60%,
+    rgba(21, 0, 255, 0.442) 100%);
+    box-shadow: 0 5px 10px rgb(255, 255, 255), 0 1px 4px rgb(255, 252, 252);
+    transform: scale(0.9)
+    perspective(20em)
+    rotateX(18deg);
+}
+
+.RedClicked{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #ff1038 60%,
+    rgba(255, 0, 0, 0.458) 100%);
+    box-shadow: 0 5px 10px rgb(255, 255, 255), 0 1px 4px rgb(255, 252, 252);
+    transform: scale(0.9)
+    perspective(20em)
+    rotateX(18deg);
+}
+
+.YellowClicked{
+    background-image: radial-gradient(farthest-corner at 10px 10px,
+    #ffec1d 60%,
+    rgba(229, 255, 0, 0.422) 100%);
+    box-shadow: 0 5px 10px rgb(255, 255, 255), 0 1px 4px rgb(255, 252, 252);
+    transform: scale(0.9)
+    perspective(20em)
+    rotateX(18deg);
+}
+
+@media (width<=1200px) and (width>=768px)
+{
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        font-size: 2.5rem;
+        color:aquamarine;
+    }
+
+    h2{
+        display: inline-block;
+        font-family: 'Press Start 2P', cursive;
+        margin-top: 5%;
+        margin-left: 85%;
+        font-size: 1.4rem;
+        color:white;
+    }
+    
+    .flexContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .mainContainer{
+        display: grid;
+        width:450px;
+        height:450px;
+        margin-top: 2%;
+        grid-template-columns: 42.5% 42.5%;
+        gap:15%;
+    }
+}
+
+@media (width<768px)
+{
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        font-size: 2rem;
+        color:aquamarine;
+        margin-top: 6%;
+    }
+
+    h2{
+        display: block;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        margin-top: 12%;
+        font-size: 1.2rem;
+        margin-left: 0%;
+        color:white;
+    }
+    
+    .flexContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .mainContainer{
+        display: grid;
+        width:400px;
+        height:400px;
+        margin-top: 5%;
+        grid-template-columns: 42.5% 42.5%;
+        gap:15%;
+    }
+}
